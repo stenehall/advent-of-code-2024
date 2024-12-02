@@ -20,7 +20,7 @@ Deno.test("test 2", async () => {
 })
 
 Deno.test("input 2", async () => {
-  const expected = 337
+  const expected = 364
   const result = await day0202("input/input02.txt")
   assertEquals(result, expected)
 })
